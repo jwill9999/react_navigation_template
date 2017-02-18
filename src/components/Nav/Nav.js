@@ -1,7 +1,8 @@
 import React from 'react'
+import {Link} from "react-router";
 import './Nav.css';
 
-const Nav = ({message}) => {
+const Nav = (props) => {
 
   return (
 
@@ -19,9 +20,9 @@ const Nav = ({message}) => {
         </div>
         <div id="navbar" className="collapse navbar-collapse">
           <ul className="nav navbar-nav">
-            <li className="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><Link to={"/home"} activeClassName={"active"}>Home</Link></li>
+            <li><Link to={"/user/10"} activeClassName={"active"}>User</Link></li>
+            <li><Link to={"/about"} activeClassName={"active"}>About</Link></li>
           </ul>
         </div>
       </div>
