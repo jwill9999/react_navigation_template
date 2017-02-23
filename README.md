@@ -7,7 +7,7 @@ This is a template showing the Navigation setup for Reactjs. Included is webpack
 git clone [https://github.com/jwill9999/react_navigation_template.git](https://github.com/jwill9999/react_navigation_template.git)
 
 ```javascript
-cd REACT NAVIGATION 
+cd react_navigation_template-master
 npm install
 ```
 
